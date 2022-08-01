@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.every-section {
+    display: flex;
+    margin-left: 50px;
+    /* for the every section of the file */
+    margin-right: 100px;
+    width: 90%;
+    padding-bottom: 150px;
+}
+
+
+/* First section--Welcome part */
+
+h1 {
+    font-size: 40px;
+}
+
+.name-color {
+    color: orange;
+    /* span tag */
+}
+
+#welcome-to-my-portfolio {
+    background-image: url(images/top-banner.png);
+    /*background image*/
+    background-repeat: no-repeat;
+}
+
+.welcome-to-my-portfolio-div {
+    width: 50%;
+    /*width between two div members */
+    padding-left: 2%;
+
+}
+
+.welcome-to-my-portfolio-div img {
+    width: 140%;
+    /*profile pic*/
+
+}
+
+
+/* second section-- dream big*/
+
+#dream-big {
+    background-image: url(images/dream-bg.png);
+    /*giving the background image*/
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+
+/* third section -- experience */
+
+.experience-h1 {
+    margin-left: 50px;
+    padding-left: 2%;
+    /* the h1 tag -- Experience*/
+}
+
+.every-section-for-third-section {
+
+    display: flex;
+    margin-left: 50px;
+    margin-right: 100px;
+    /* for the third secition to make the two div flex expect the experience*/
+    width: 90%;
+    padding-bottom: 150px;
+}
+
+h2 {
+    font-size: 30px;
+    /* for the experience */
+}
+
+#experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    /*give the background for the third section.*/
+
+}
+
+#experience-area .welcome-to-my-portfolio-div {
+    box-shadow: 5px 10px 8px 10px grey;
+    width: 50%;
+    margin-left: 5%;
+    /* use the box shadow for the full-stack-developer and for the baby-web developer*/
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+
+
+}
+
+
+
+#full-stack-developer {
+    border-radius: 5px;
+    border-left: 5px solid tomato;
+    /* give the border for the full-stack-developer */
+}
+
+#baby-web-developer {
+    border-radius: 5px;
+    border-left: 5px solid blue;
+    /* give the border for the baby-web-developer */
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    /* button for the every section */
+    border-radius: 5px;
+    color: white;
+    padding: 10px 40px;
+    font-weight: 700;
+
+}
+
+
+footer {
+    text-align: center;
+    /* make the footer center.*/
+}
